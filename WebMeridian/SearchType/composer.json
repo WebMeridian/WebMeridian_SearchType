@@ -1,0 +1,21 @@
+{
+  "name": "webmeridian/module-searchtype",
+  "autoload": {
+    "psr-4": {"WebMeridian\\SearchType\\":""},
+    "files": ["registration.php"]
+  },
+  "description": "Add Search Strategy LIKE",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "WebMeridian",
+      "email": "info@webmeridian.org",
+      "homepage": "http://webmeridian.org/"
+    }
+  ],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ]
+}

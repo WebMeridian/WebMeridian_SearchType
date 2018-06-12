@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <catalog>
+            <search>
+                <engine>mysql</engine>
+                <search_type>fulltext</search_type>
+                <max_query_words>10</max_query_words>
+            </search>
+        </catalog>
+    </default>
+</config>
